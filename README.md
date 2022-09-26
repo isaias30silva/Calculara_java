@@ -1,50 +1,40 @@
 # :computer: Projeto: Calculadora
 
+Este é um projeto de conclusão do curso de Introdução à Lógica de Programação oferecido pela Pacetech - Infinite Learning.
+
+:man_student:Turma 4
+
+:green_book:Período: 02/2022 - 04/2022 (3 meses)
+
 ## Descrição do projeto
 
-> O objetivo deste projeto é a criação de uma urna eletrônica, semelhante à utilizada nas eleições realizadas no Brasil.
+> O objetivo deste projeto é a criação de uma calculadora utilizando a linguagem de programação Java (18). 
 >
-> Para o projeto, foram aplicadas as tecnologias:
-
-:dart: HTML;
-
-:dart: CSS (com Flexbox);
-
-:dart: JavaScript.
+> A interface foi construída com JFrame (Swing).
 
 ### Funcionamento:
 
-> O usuário começará a utilização da urna definindo o voto para vereador (5 dígitos). Depois, votará para prefeito (2 dígitos). Confirmando esses dois votos, o procedimento é finalizado.
+> A calculadora possibilita a execução das operações matemáticas entre números inteiros e racionais de soma, subtração, multiplicação e divisão.
 >
-> Nesse projeto, estão cadastrados dois candidatos para vereador e dois candidatos para prefeito:
+> Ao clicar em um número, o mesmo será exibido na parte superior da interface, acima do botão "LIMPAR".
 >
-> Candidatos para Vereador:
+> Após a inclusão do primeiro número, basta selecionar o operador e, na sequência, o segundo número. Para operações com mais de dois números, o procedimento segue a mesma ordem: primeiro o número, depois o operador. 
 >
-> :arrow_right:Silvia Maria - Número: 38111
+> **Operadores**
 >
-> :arrow_right:Pedro Henrique - Número: 77222
+> (/) divisão
 >
-> Candidatos para Prefeito:
+> (x) multiplicação
 >
-> :arrow_right:Ubiratan Nunes - Número: 84
+> (-) subtração
 >
-> :arrow_right:Rui Dorneles - Número: 99
+> (+) adição
 >
-> #### Voto Nulo
+> O resultado da operação é obtido ao clicar no botão de símbolo "=" e o símbolo "." deve ser utilizado para números racionais.
 >
-> Caso o usuário digite qualquer outra combinação de números, ou seja, se não optar por nenhum dos candidatos cadastrados, o voto será "nulo".
+> **LIMPAR** 
 >
-> #### Corrigir
->
-> Se o usuário digitar algum número erroneamente ou desejar mudar o voto, basta clicar no botão "CORRIGE" e o sistema será reiniciado. 
->
-> #### Voto Branco
->
-> Caso o usuário não queira votar em nenhum dos candidatos cadastrados, poderá escolher e clicar no botão "BRANCO".
->
-> #### Confirmar
->
-> Ao clicar no botão "CONFIRMA", o usuário não poderá alterar o voto. Importante: o voto para prefeito só estará habilitado após a confirmação de voto para vereador. 
+> Para corrigir um número informado, reiniciar ou realizar nova operação, clique no botão "LIMPAR".
 >
 > 
 
